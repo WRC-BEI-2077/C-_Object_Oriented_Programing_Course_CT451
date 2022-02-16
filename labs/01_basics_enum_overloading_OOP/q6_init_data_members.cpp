@@ -1,17 +1,28 @@
-class Animal {
+//WAP using class and object. Use the member function to 
+// initialize the class data members.
+#include <iostream>
+using namespace std;
+
+class Circle {
  private:
-  int id;
+  float radius;
 
  public:
-  Animal();
-  ~Animal();
+  void SetRadius(float r) {
+    // initializing data member
+    radius = r;
+  }
+
+  void GetArea() {
+    // accessing data member
+    cout << "Area: " << (3.1415 * radius * radius) << endl;
+  }
 };
 
-Animal::Animal() {}
+int main(int argc, char const* argv[]) {
+  Circle c1;
 
-Animal::~Animal() {}
-
-int main() {
-
+  c1.SetRadius(10.0);
+  c1.GetArea();
   return 0;
 }
