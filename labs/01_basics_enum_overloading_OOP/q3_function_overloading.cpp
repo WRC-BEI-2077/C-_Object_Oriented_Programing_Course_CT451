@@ -1,28 +1,27 @@
-#include<iostream>
-#define PI 3.14
+// WAP to fund the area of a square, rectangle and triangle using function
+// overloading without using class.
+
+#include <iostream>
 using namespace std;
 
-
-int area(int a){
-    return(a*a);
-}
-int area(int a, int b){
-    return(a*b);
-}
-float area(float r){
-    return(PI*r*r);
+int Area(int side) {  // area of square
+  return side * side;
 }
 
+int Area(int length, int breadth) {  // area of rectangle
+  return length * breadth;
+}
 
-int main(){
-    int x, y;
-    float z;
-    cout<<"Enter length, breadth and radius: ";
-    cin>>x>>y>>z;
+float Area(float radius) {  // area of circle
+  return 3.14159 * radius * radius;
+}
 
-    cout<<"The area of square is "<<area(x)<<endl;
-    cout<<"The area of rectangle is "<<area(x,y)<<endl;
-    cout<<"The area of circle is "<<area(z)<<endl;
-    
-    return 0;
+int main() {
+  int s = 3, l = 2, b = 3;
+  float r = 1.5;
+
+  cout << "Area of square: " << Area(s) << endl;
+  cout << "Area of rectangle: " << Area(l, b) << endl;
+  cout << "Area of circle: " << Area(r) << endl;
+  return 0;
 }
