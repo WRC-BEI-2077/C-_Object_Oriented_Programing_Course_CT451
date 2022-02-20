@@ -17,3 +17,12 @@ int main() {
   cout << "Sum = " << add(1) << endl;        // gives error when no args given
   return 0;
 }
+
+/** OUTPUT:
+
+Sum = 4
+Sum = 6
+Sum = 13
+Sum = 4
+
+*/
