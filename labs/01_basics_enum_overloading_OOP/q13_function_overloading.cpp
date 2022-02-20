@@ -25,3 +25,11 @@ int main() {
   cout << "Area of circle: " << Area(r) << endl;
   return 0;
 }
+
+/** OUTPUT:
+
+Area of square: 9
+Area of rectangle: 6
+Area of circle: 7.06858
+
+*/

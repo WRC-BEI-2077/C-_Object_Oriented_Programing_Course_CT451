@@ -15,3 +15,10 @@ int main() {
 
   return 0;
 }
+
+/** OUTPUT:
+
+Enter the radius of circle: 12
+It's area is: 452.389
+
+ */

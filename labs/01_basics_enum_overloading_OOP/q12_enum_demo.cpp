@@ -22,3 +22,10 @@ int main() {
 
   return 0;
 }
+
+/** OUTPUT:
+
+Winter: 3
+Seasonal values for Spring, Summer, Autumn, Winter respectively: 0 1 2 3
+
+*/

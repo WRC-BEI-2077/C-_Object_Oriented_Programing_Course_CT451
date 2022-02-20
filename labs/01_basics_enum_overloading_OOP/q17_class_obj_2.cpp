@@ -56,3 +56,21 @@ int main() {
 
   return 0;
 }
+
+/** OUTPUT:
+
+NEW CUSTOMER:
+=============
+Enter the customer's name: Bruno
+Enter the product bought: Mars Chocolate Bar
+Enter the amount price: 29000
+
+CUSTOMER BILLING DETAILS:
+=========================
+Name: Bruno
+Product bought: Mars Chocolate Bar
+Amount paid: 29000
+Discount: 1450
+Final price: 27550
+
+*/

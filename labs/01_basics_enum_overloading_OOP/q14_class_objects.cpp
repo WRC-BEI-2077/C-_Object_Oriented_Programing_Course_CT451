@@ -36,3 +36,11 @@ int main(int argc, char const* argv[]) {
 
   return 0;
 }
+
+/** OUTPUT:
+
+Area of square: 9
+Area of rectangle: 6
+Area of circle: 7.06858
+
+*/

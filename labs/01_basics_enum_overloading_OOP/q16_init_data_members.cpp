@@ -26,3 +26,9 @@ int main(int argc, char const* argv[]) {
   c1.GetArea();
   return 0;
 }
+
+/** OUTPUT:
+
+Area: 314.15
+
+*/
