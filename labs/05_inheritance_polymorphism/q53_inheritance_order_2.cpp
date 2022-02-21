@@ -20,6 +20,17 @@ public:
 };
   
 int main() {
-    C c;
-    return 0;
+  C c;
+  return 0;
 }
+
+/** OUTPUT:
+
+  B's constructor called
+  A's constructor called
+  C's constructor called
+  C's destructor called
+  A's destructor called
+  B's destructor called
+
+ */
